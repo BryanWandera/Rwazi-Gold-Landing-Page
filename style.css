@@ -1,0 +1,334 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    height: fit-content;
+    margin: 0;
+   
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    margin-top: 1em;
+}
+
+#navigation-bar {
+
+    z-index: 40;
+    display: inline;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+    display: block;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    text-align: center;
+    padding-top: 5px;
+    top: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    #navigation-bar {
+        display: none;
+    }
+
+}
+
+#logo-nav {
+    width: 136px;
+    left: 5vw;
+    top: 0.5vh;
+    position: absolute;
+}
+
+#nav-links {
+    position: absolute;
+    right: 5vw;
+    top: 3vh;
+}
+
+.nav-link {
+    padding-left: 1.3em;
+}
+
+.button-nav {
+    background-color: #066083;
+    border: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border-radius: 35px;
+    font-weight: 600;
+    color: white;
+}
+#fold {
+    height: 92vh;
+    width: 100vw;
+    text-align: center;
+       
+        
+        
+}
+#fold-background {
+    height: 92vh;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#fold-overlay {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 92vh;
+    background-color: black;
+    opacity: 0.69;
+}
+#fold-content {
+    position: absolute;
+    z-index: 7;    
+    width: 60vw;   
+    top: 40%;
+    translate: transformY(50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    left: 50%;
+    translate: transformX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    
+    
+}
+#fold-content h1 {
+    color: white;      
+    text-align: center;
+    font-weight: 600;
+    
+}
+#fold-content p {
+    color: white;
+    margin: 0;
+}
+.dark-teal-text {
+    color: #5592AA;
+    opacity: 0.88;
+    font-weight: 900;
+}
+
+.teal-button-no-fill {
+    background-color: transparent;
+    border-width: 3px;
+    border-color: #066083;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 35px;
+    font-weight: 600;
+    color: white;
+    margin-top: 1em;
+}
+.teal-button-with-fill {
+    position: absolute;
+    background-color: #066083;
+    border: none;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 35px;
+    font-weight: 600;
+    color: white;
+    margin-top: 1em;
+}
+
+#below-fold {
+   
+}
+#below-fold h2 {
+    font-size: 2em;
+    color: #132A33;
+    font-weight: 900;
+    margin-top: 2em;
+    margin-left: 10vw;
+        margin-right: 10vw;
+}
+#below-fold p{
+    margin-left: 10vw;
+        margin-right: 10vw;
+}
+#gold-uses-section {
+    display: grid;
+    margin-top: 4em;
+    
+
+}
+#gold-uses-light-teal-background{
+    background-color: #3885A3;
+    opacity: 0.1;
+    height: 95vh;
+    width: 100vw;    
+    /* position: absolute; */
+    z-index: 1;
+}
+#gold-uses-light-teal-background h1 {
+    color: black;
+    opacity: 1;
+    grid-column: 1;
+    grid-row: 1;
+}
+#gold-uses-content {
+    z-index: 5;
+    position: absolute;
+    grid-column: 1;
+    grid-row: 1;
+    height: 95vh;    
+    text-align: center;
+
+}
+#gold-uses-table {
+    width: 50vw;
+    display: inline;
+    left: 50%;
+        translate: transformX(50%);
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+    margin-top: 2em;
+}
+
+.square-lines {
+    width: 20em;
+}
+#square-lines-1 {
+    z-index: 4;
+    position: absolute;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+#square-lines-2 {
+    z-index: 4;
+    position: absolute;
+    grid-column: 1;
+    grid-row: 1;
+    right: 0;
+    margin-top: calc(95vh - 20em);   
+
+}
+
+#gold-production-graph {
+    width: 50vw;
+        display: inline;
+        left: 50%;
+        translate: transformX(50%);
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        margin-top: 2em;
+}
+#gold-production-cards {
+    position: absolute;  
+    width: 80vw;
+        
+        grid-template-columns: 50% 50%;
+        left: 50%;
+        translate: transformX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        margin-top: 2em;
+        text-align: center;
+       
+    
+}
+.gold-production-card {    
+    width: 33vw;
+    
+}
+#pricing-section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#pricing-light-teal-background {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #3885A3;
+        opacity: 0.1;
+        height: 95vh;
+        width: 100vw;
+        /* position: absolute; */
+        z-index: 1;
+}
+#pricing-section-content {
+    z-index: 6;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    
+
+}
+#pricing-section-content h1 {
+    margin-top: 1em;
+    color: #132A33;
+    opacity: 0.9;
+}
+#pricing-section-content h2 {
+    
+    color: #132A33;
+    opacity: 0.9;
+}
+#pricing-cards-grid {
+    margin-top: 2em;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.price-card {
+    width: 20em;
+}
+#backed-by-techstars-section {
+    text-align: center;
+}
+#backed-by-techstars-section h2 {
+   
+    color: #066083;
+}
+#techstars-logo {
+    display: inline;
+    text-align: center;
+    color: #066083;
+    margin-bottom: 4em;
+}
+#footer {
+    background-color: black;
+    color: white;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+
+}
+#footer-links-grid {
+    display: grid;
+    width: 60vw;    
+    margin-left: 5vw ;
+    grid-template-columns: 33% 33% 33%;
+}
+#footer h4 {
+    font-weight: 400;
+}
+#footer h3 {
+    text-align: center;
+    margin-top: 4em;
+    font-weight: 600;
+}
+#copyright-rwazi {
+    color: #6692A4;
+    margin-top: 0;
+
+}

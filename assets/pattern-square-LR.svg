@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="434" height="434" viewBox="0 0 434 434">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_136" data-name="Rectangle 136" width="434" height="434" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_30" data-name="Mask Group 30" opacity="0.6" clip-path="url(#clip-path)">
+    <g id="Group_318" data-name="Group 318" transform="translate(-747.756 -90.758)">
+      <g id="Group_314" data-name="Group 314" transform="translate(718.286 0) rotate(59)">
+        <line id="Line_396" data-name="Line 396" x2="566.5" transform="translate(0 5.945)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_397" data-name="Line 397" y1="590.213" x2="355.127" transform="matrix(0.469, -0.883, 0.883, 0.469, 388.746, 313.559)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+      <g id="Group_315" data-name="Group 315" transform="translate(646.918 0) rotate(59)">
+        <line id="Line_398" data-name="Line 398" x2="566.5" transform="translate(0 5.945)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_399" data-name="Line 399" y1="590.213" x2="355.127" transform="matrix(0.469, -0.883, 0.883, 0.469, 388.746, 313.559)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+      <g id="Group_316" data-name="Group 316" transform="translate(577.65 0) rotate(59)">
+        <line id="Line_400" data-name="Line 400" x2="566.5" transform="translate(0 5.945)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_401" data-name="Line 401" y1="590.213" x2="355.127" transform="matrix(0.469, -0.883, 0.883, 0.469, 388.746, 313.559)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+      <g id="Group_317" data-name="Group 317" transform="translate(506.283 0) rotate(59)">
+        <line id="Line_402" data-name="Line 402" x2="566.5" transform="translate(0 5.945)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_403" data-name="Line 403" y1="590.213" x2="355.127" transform="matrix(0.469, -0.883, 0.883, 0.469, 388.746, 313.559)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+    </g>
+    <g id="Group_323" data-name="Group 323" transform="matrix(-0.469, 0.883, -0.883, -0.469, 1409.184, -213.495)">
+      <g id="Group_319" data-name="Group 319" transform="translate(212.002 922.822) rotate(-59)">
+        <line id="Line_404" data-name="Line 404" x2="566.5" transform="translate(0 584.701)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_405" data-name="Line 405" x2="355.127" y2="590.213" transform="matrix(0.469, 0.883, -0.883, 0.469, 909.873, 0)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+      <g id="Group_320" data-name="Group 320" transform="translate(140.635 922.822) rotate(-59)">
+        <line id="Line_406" data-name="Line 406" x2="566.5" transform="translate(0 584.701)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_407" data-name="Line 407" x2="355.127" y2="590.213" transform="matrix(0.469, 0.883, -0.883, 0.469, 909.873, 0)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+      <g id="Group_321" data-name="Group 321" transform="translate(71.367 922.822) rotate(-59)">
+        <line id="Line_408" data-name="Line 408" x2="566.5" transform="translate(0 584.701)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_409" data-name="Line 409" x2="355.127" y2="590.213" transform="matrix(0.469, 0.883, -0.883, 0.469, 909.873, 0)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+      <g id="Group_322" data-name="Group 322" transform="translate(0 922.822) rotate(-59)">
+        <line id="Line_410" data-name="Line 410" x2="566.5" transform="translate(0 584.701)" fill="none" stroke="#fff" stroke-width="35"/>
+        <line id="Line_411" data-name="Line 411" x2="355.127" y2="590.213" transform="matrix(0.469, 0.883, -0.883, 0.469, 909.873, 0)" fill="none" stroke="#fff" stroke-width="35"/>
+      </g>
+    </g>
+  </g>
+</svg>
