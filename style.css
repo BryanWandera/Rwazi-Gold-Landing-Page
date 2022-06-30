@@ -305,6 +305,12 @@ p {
         display: none;
     }
 }
+#gold-production-graph-mobile {
+    display: none;
+}
+.gold-production-card-mobile {
+    display: none;
+}
 
 
 #gold-production-graph {
@@ -317,9 +323,9 @@ p {
         margin-top: 2em;
 }
 #gold-production-cards {
-    position: absolute;  
+    position: relative;  
     width: 80vw;
-        
+        margin-bottom: 3em;
         grid-template-columns: 50% 50%;
         left: 50%;
         translate: transformX(-50%);
@@ -332,6 +338,22 @@ p {
 }
 .gold-production-card {    
     width: 33vw;
+    
+}
+@media screen and (max-width: 900px) {
+    #gold-production-graph {
+        display: none;
+    }
+    #gold-produciton-cards {
+        display: none;
+    }
+    .gold-production-card {
+        display: none;
+    }
+    #gold-production-graph-mobile {
+        display: relative;
+        width: 80vw;
+    }
     
 }
 #pricing-section {
@@ -406,6 +428,13 @@ p {
     width: 60vw;    
     margin-left: 5vw ;
     grid-template-columns: 33% 33% 33%;
+}
+@media  screen and (max-width: 900px) {
+    #footer-links-grid {
+        grid-template-columns: 50% 50%;
+        width: 90vw;
+    }
+    
 }
 #footer h4 {
     font-weight: 400;
