@@ -426,36 +426,50 @@ p {
     padding-bottom: 6vh;
     padding-left: 5vw;
 }
+
 #footer-links-grid {
     display: grid;
-    width: 60vw;    
-    margin-left: 5vw ;
+    width: 60vw;
+    margin-left: 5vw;
     grid-template-columns: 33% 33% 33%;
+    text-align: left;
 }
-@media  screen and (max-width: 900px) {
+
+@media screen and (max-width: 900px) {
     #footer-links-grid {
         grid-template-columns: 50% 50%;
         width: 90vw;
+        text-align: left;
     }
-    
+
 }
+
 #footer h4 {
     font-weight: 400;
+    margin-bottom: 0.1em;
 }
-#footer h4:hover{
+
+#footer h4:hover {
     font-weight: 600;
 }
+
 #footer h3 {
     text-align: center;
-    margin-top: 4em;
+    margin: 0;
+    margin-top: 2em;
+
+
     font-weight: 600;
 }
+
 #footer a {
     color: white;
 }
+
 #footer h3:hover {
     font-weight: 300;
 }
+
 #copyright-rwazi {
     color: #6692A4;
     margin-top: 0;
